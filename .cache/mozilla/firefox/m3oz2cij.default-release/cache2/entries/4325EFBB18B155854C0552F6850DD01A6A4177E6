@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="en" xml:lang="en">
+<head>
+    <title></title>
+    <link rel="shortcut icon" href="https://elearning.pau.edu.ng/theme/image.php/eguru/theme/1634902164/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, " />
+<link rel="stylesheet" type="text/css" href="https://elearning.pau.edu.ng/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://elearning.pau.edu.ng/theme/styles.php/eguru/1634902164_1602410827/all" />
+<link rel="stylesheet" type="text/css" href="https://elearning.pau.edu.ng/mod/turnitintooltwo/styles.css" />
+<link rel="stylesheet" type="text/css" href="https://elearning.pau.edu.ng/mod/turnitintooltwo/css/jquery-ui-1.8.4.custom.css" />
+<link rel="stylesheet" type="text/css" href="https://elearning.pau.edu.ng/mod/turnitintooltwo/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="https://elearning.pau.edu.ng/mod/turnitintooltwo/css/tii-icon-webfont.css" />
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/elearning.pau.edu.ng","sesskey":"joRjO4KaRX","sessiontimeout":"7200","themerev":"1634902164","slasharguments":1,"theme":"eguru","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1602492113","admin":"admin","svgicons":true,"usertimezone":"Africa\/Lagos","contextid":53807,"langrev":1602492113,"templaterev":"1602492113"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/elearning.pau.edu.ng\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/elearning.pau.edu.ng\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/elearning.pau.edu.ng\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/elearning.pau.edu.ng\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/elearning.pau.edu.ng\/theme\/yui_combo.php?m\/1602492113\/","combine":true,"comboBase":"https:\/\/elearning.pau.edu.ng\/theme\/yui_combo.php?","ext":false,"root":"m\/1602492113\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-event":{"requires":["event-custom"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-beautify":{},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/elearning.pau.edu.ng\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/elearning.pau.edu.ng\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1602492113\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/elearning.pau.edu.ng\/lib\/javascript.php\/1602492113\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/elearning.pau.edu.ng\/lib\/javascript.php\/1602492113\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.8\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body  id="page-mod-turnitintooltwo-view" class="format-weeks  path-mod path-mod-turnitintooltwo gecko dir-ltr lang-en yui-skin-sam yui3-skin-sam elearning-pau-edu-ng pagelayout-embedded course-1319 context-53807 cmid-27453 category-202 ">
+<div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Skip to main content</a>
+</div><script src="https://elearning.pau.edu.ng/lib/javascript.php/1602492113/lib/babel-polyfill/polyfill.min.js"></script>
+<script src="https://elearning.pau.edu.ng/lib/javascript.php/1602492113/lib/polyfills/polyfill.js"></script>
+<script src="https://elearning.pau.edu.ng/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script src="https://elearning.pau.edu.ng/theme/jquery.php/core/jquery-3.4.1.min.js"></script>
+<script src="https://elearning.pau.edu.ng/theme/jquery.php/core/ui-1.12.1/jquery-ui.min.js"></script>
+<script src="https://elearning.pau.edu.ng/theme/jquery.php/mod_turnitintooltwo/jquery.dataTables.js"></script>
+<link rel="stylesheet" type="text/css" href="https://elearning.pau.edu.ng/theme/jquery.php/mod_turnitintooltwo/jquery.dataTables.css" />
+<script src="https://elearning.pau.edu.ng/theme/jquery.php/mod_turnitintooltwo/jquery.dataTables.plugins.js"></script>
+<script src="https://elearning.pau.edu.ng/theme/jquery.php/mod_turnitintooltwo/turnitintooltwo-2018102601.min.js"></script>
+<script src="https://elearning.pau.edu.ng/theme/jquery.php/mod_turnitintooltwo/turnitintooltwo_extra-2018102601.min.js"></script>
+<script src="https://elearning.pau.edu.ng/theme/jquery.php/mod_turnitintooltwo/turnitintooltwo_settings-2018102601.min.js"></script>
+<script src="https://elearning.pau.edu.ng/theme/jquery.php/mod_turnitintooltwo/jquery.dataTables.columnFilter.js"></script>
+<script src="https://elearning.pau.edu.ng/theme/jquery.php/mod_turnitintooltwo/jquery.colorbox.js"></script>
+<link rel="stylesheet" type="text/css" href="https://elearning.pau.edu.ng/theme/jquery.php/mod_turnitintooltwo/colorbox.css" />
+<script src="https://elearning.pau.edu.ng/theme/jquery.php/mod_turnitintooltwo/jquery.cookie.js"></script>
+<script src="https://elearning.pau.edu.ng/theme/jquery.php/mod_turnitintooltwo/jqueryui-editable.js"></script>
+<link rel="stylesheet" type="text/css" href="https://elearning.pau.edu.ng/theme/jquery.php/mod_turnitintooltwo/jqueryui-editable.css" />
+<script src="https://elearning.pau.edu.ng/theme/jquery.php/mod_turnitintooltwo/moment.js"></script>
+<script src="https://elearning.pau.edu.ng/lib/javascript.php/1602492113/lib/javascript-static.js"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+<div id="page">
+    <div id="page-content" class="clearfix">
+        <div role="main"><span id="maincontent"></span><div class="mod_turnitintooltwo"><noscript><link rel="stylesheet" type="text/css" href="https://elearning.pau.edu.ng/mod/turnitintooltwo/css/student_noscript.css"></link></noscript><div class=""><div id="view_context">box_solid</div><div id="box_receipt"><div id="digital_receipt" class="box py-3 generalbox"><div class="box py-3 centered_div"><img class="icon " alt="Turnitin" title="Turnitin" src="https://elearning.pau.edu.ng/theme/image.php/eguru/mod_turnitintooltwo/1634902164/icon" /></div><p class="bold" id="upload_success">Your submission has successfully been uploaded to Turnitin.</p><h2 id="digital_receipt">Digital Receipt</h2><p><span class="bold">Turnitin submission id:</span> <span class="tii_submission_id">1756881508</span></p><p class="bold">Submission extract:</p><span class="extract_text"><p></p></span></div></div></div></div></div>    </div>
+</div>
+<script>
+//<![CDATA[
+var require = {
+    baseUrl : 'https://elearning.pau.edu.ng/lib/requirejs.php/1602492113/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://elearning.pau.edu.ng/lib/javascript.php/1602492113/lib/jquery/jquery-3.4.1.min',
+        jqueryui: 'https://elearning.pau.edu.ng/lib/javascript.php/1602492113/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://elearning.pau.edu.ng/lib/javascript.php/1602492113/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="https://elearning.pau.edu.ng/lib/javascript.php/1602492113/lib/requirejs/require.min.js"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");require(['core/first'], function() {
+require(['core/prefetch']);
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://elearning.pau.edu.ng/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage('en', {
+  "Audio Player": "Audio Player",
+  "Video Player": "Video Player",
+  "Play": "Play",
+  "Pause": "Pause",
+  "Replay": "Replay",
+  "Current Time": "Current Time",
+  "Duration": "Duration",
+  "Remaining Time": "Remaining Time",
+  "Stream Type": "Stream Type",
+  "LIVE": "LIVE",
+  "Seek to live, currently behind live": "Seek to live, currently behind live",
+  "Seek to live, currently playing live": "Seek to live, currently playing live",
+  "Loaded": "Loaded",
+  "Progress": "Progress",
+  "Progress Bar": "Progress Bar",
+  "progress bar timing: currentTime={1} duration={2}": "{1} of {2}",
+  "Fullscreen": "Fullscreen",
+  "Non-Fullscreen": "Non-Fullscreen",
+  "Mute": "Mute",
+  "Unmute": "Unmute",
+  "Playback Rate": "Playback Rate",
+  "Subtitles": "Subtitles",
+  "subtitles off": "subtitles off",
+  "Captions": "Captions",
+  "captions off": "captions off",
+  "Chapters": "Chapters",
+  "Descriptions": "Descriptions",
+  "descriptions off": "descriptions off",
+  "Audio Track": "Audio Track",
+  "Volume Level": "Volume Level",
+  "You aborted the media playback": "You aborted the media playback",
+  "A network error caused the media download to fail part-way.": "A network error caused the media download to fail part-way.",
+  "The media could not be loaded, either because the server or network failed or because the format is not supported.": "The media could not be loaded, either because the server or network failed or because the format is not supported.",
+  "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.",
+  "No compatible source was found for this media.": "No compatible source was found for this media.",
+  "The media is encrypted and we do not have the keys to decrypt it.": "The media is encrypted and we do not have the keys to decrypt it.",
+  "Play Video": "Play Video",
+  "Close": "Close",
+  "Close Modal Dialog": "Close Modal Dialog",
+  "Modal Window": "Modal Window",
+  "This is a modal window": "This is a modal window",
+  "This modal can be closed by pressing the Escape key or activating the close button.": "This modal can be closed by pressing the Escape key or activating the close button.",
+  ", opens captions settings dialog": ", opens captions settings dialog",
+  ", opens subtitles settings dialog": ", opens subtitles settings dialog",
+  ", opens descriptions settings dialog": ", opens descriptions settings dialog",
+  ", selected": ", selected",
+  "captions settings": "captions settings",
+  "subtitles settings": "subtitles settings",
+  "descriptions settings": "descriptions settings",
+  "Text": "Text",
+  "White": "White",
+  "Black": "Black",
+  "Red": "Red",
+  "Green": "Green",
+  "Blue": "Blue",
+  "Yellow": "Yellow",
+  "Magenta": "Magenta",
+  "Cyan": "Cyan",
+  "Background": "Background",
+  "Window": "Window",
+  "Transparent": "Transparent",
+  "Semi-Transparent": "Semi-Transparent",
+  "Opaque": "Opaque",
+  "Font Size": "Font Size",
+  "Text Edge Style": "Text Edge Style",
+  "None": "None",
+  "Raised": "Raised",
+  "Depressed": "Depressed",
+  "Uniform": "Uniform",
+  "Dropshadow": "Dropshadow",
+  "Font Family": "Font Family",
+  "Proportional Sans-Serif": "Proportional Sans-Serif",
+  "Monospace Sans-Serif": "Monospace Sans-Serif",
+  "Proportional Serif": "Proportional Serif",
+  "Monospace Serif": "Monospace Serif",
+  "Casual": "Casual",
+  "Script": "Script",
+  "Small Caps": "Small Caps",
+  "Reset": "Reset",
+  "restore all settings to the default values": "restore all settings to the default values",
+  "Done": "Done",
+  "Caption Settings Dialog": "Caption Settings Dialog",
+  "Beginning of dialog window. Escape will cancel and close the window.": "Beginning of dialog window. Escape will cancel and close the window.",
+  "End of dialog window.": "End of dialog window.",
+  "{1} is loading.": "{1} is loading.",
+  "Exit Picture-in-Picture": "Exit Picture-in-Picture",
+  "Picture-in-Picture": "Picture-in-Picture"
+});
+
+    });
+});;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(53807, [], true); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script src="https://elearning.pau.edu.ng/lib/javascript.php/1602492113/theme/eguru/javascript/theme.js"></script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error","file":"File","url":"URL"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"},"turnitintooltwo":{"close":"Close","nointegration":"No Integration","sprevious":"Previous","snext":"Next","sprocessing":"Loading data from Turnitin...","szerorecords":"No records to display.","sinfo":"Showing _START_ to _END_ of _TOTAL_ entries.","ssearch":"Search:","slengthmenu":"Show _MENU_ Entries","semptytable":"No results found.","tiisubmissionsgeterror":"There was an error when trying to get submissions for this assignment from Turnitin","membercheckerror":"There was an error when trying to check users that are enrolled on this course","resubmissiongradewarn":"Resubmissions are allowed for this assignment until the due date passes. Any and all marks will be deleted when or if the paper is resubmitted. Would you like to continue?","submitnothingwarning":"Clicking on the gray pen for a student who hasn&#39;t submitted a file creates a grading template, which will allow you to give the student GradeMark feedback for the assignment. A grading template takes the place of a submission and will prevent the student from submitting to assignments where resubmission is not allowed.<br><br>Are you sure you want to grade without a submission?","maxmarkserror":"Maximum Marks must be between 0 and 100","disableanonconfirm":"Doing this will permanently disable anonymous marking on this assignment. Are you sure?","closebutton":"Close","loadingdv":"Loading Turnitin Document Viewer...","postdate_warning":"Please be aware that changing the assignment dates may affect when grades are visible to the student and when the student's identities are revealed to instructors.","deleteconfirm":"Are you sure you want to delete this submission?\\n\\nThis action cannot be undone.","turnitindeleteconfirm":"Deleting papers removes them from your submissions list and inbox but does not completely\\nremove them from the Turnitin database.\\n\\nAre you sure you want to delete this submission? This action cannot be undone.","max_marks_warning":"Please be aware that changing the Marks Available after grading may affect the gradebook","download_button_warning":"A student must be selected for this feature to be available."},"debug":{"debuginfo":"Debug info","line":"Line","stacktrace":"Stack trace"},"langconfig":{"labelsep":": "}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random620136299722b2'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random620136299722b2'); });
+})();
+//]]>
+</script>
+</body>
+</html><!-- Turnitin Moodle Direct Version: 2020072201 - course ID: 32497588 - (CSC 205 - Test II: 117459667) -->[Í³P:      b6)b6)Cî„)b6)   ˜    O^partitionKey=%28https%2Cpau.edu.ng%29,:https://elearning.pau.edu.ng/mod/turnitintooltwo/view.php?id=27453&do=submission_success&view_context=box_solid necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Server: nginx/1.16.1
+Date: Mon, 07 Feb 2022 15:09:29 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: PHP/7.4.11
+Content-Language: en
+Content-Script-Type: text/javascript
+Content-Style-Type: text/css
+X-UA-Compatible: IE=edge
+Cache-Control: private, pre-check=0, post-check=0, max-age=0, no-transform
+Pragma: no-cache
+Accept-Ranges: none
+X-Frame-Options: sameorigin
+ original-response-headers Server: nginx/1.16.1
+Date: Mon, 07 Feb 2022 15:09:29 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.11
+Content-Language: en
+Content-Script-Type: text/javascript
+Content-Style-Type: text/css
+X-UA-Compatible: IE=edge
+Cache-Control: private, pre-check=0, post-check=0, max-age=0, no-transform
+Pragma: no-cache
+Expires: 
+Accept-Ranges: none
+X-Frame-Options: sameorigin
+ ctid 1 uncompressed-len 0 net-response-time-onstart 445 net-response-time-onstop 452   n
